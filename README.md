@@ -6,6 +6,34 @@
 
 ![Build](https://github.com/anthonyalmarza/pyscript/workflows/Build/badge.svg)
 
+## Overview
+
+`PyScript` is a very simple development tool intended to be used with `pyproject.toml` configuration files.
+The intention is to provide an interface for running scripts within a local development workflow.
+
+```toml
+# in your pyproject.toml
+[tool.pyscript]
+tests = "path.to.my.tests.script:entrypoint_callable"
+```
+
+Running `pyscript tests` after installing `pyscript` will import the `path.to.my.tests.script` module and will call
+`entrypoint_callable` callable.
+
+This works in much the same way as `poetry`'s `poetry run` command without actually including those scripts in your
+project build.
+
+> NOTE: This is an alpha release. Use it your own risk.
+
+## Installation
+
+`pip install pyscript`
+
+or if you're using `poetry`
+
+`poetry add -D pyscript`
+
+
 ## Local Development
 
 ### Pyenv
