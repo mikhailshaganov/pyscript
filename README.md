@@ -1,4 +1,4 @@
-# PyScript
+# PyProject Script
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![codecov](https://codecov.io/gh/anthonyalmarza/pyscript/branch/main/graph/badge.svg?token=JRCC98L3FG)](https://codecov.io/gh/anthonyalmarza/pyscript)
@@ -6,7 +6,7 @@
 
 ## Overview
 
-`PyScript` is a very simple development tool intended to be used with `pyproject.toml` configuration files.
+`PyProject Script` is a very simple development tool intended to be used with `pyproject.toml` configuration files.
 The intention is to provide an interface for running scripts within a local development workflow.
 
 ```toml
@@ -25,11 +25,11 @@ project build.
 
 ## Installation
 
-`pip install pyscript`
+`pip install pyproject-script`
 
 or if you're using `poetry`
 
-`poetry add -D pyscript`
+`poetry add -D pyproject-script`
 
 
 ## Local Development

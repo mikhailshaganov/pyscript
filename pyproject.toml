@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyscript"
+name = "pyproject-script"
 version = "0.0.0-alpha"
 description = ""
 authors = ["Anthony Almarza <anthony.almarza@gmail.com>"]
