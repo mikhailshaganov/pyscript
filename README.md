@@ -1,9 +1,7 @@
 # PyScript
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 [![codecov](https://codecov.io/gh/anthonyalmarza/pyscript/branch/main/graph/badge.svg?token=JRCC98L3FG)](https://codecov.io/gh/anthonyalmarza/pyscript)
-
 ![Build](https://github.com/anthonyalmarza/pyscript/workflows/Build/badge.svg)
 
 ## Overview
