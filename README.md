@@ -62,4 +62,4 @@ Install pre-commit hooks:
 
 ### Running Tests:
 
-`poetry run tests`
+`poetry run pyscript tests`
