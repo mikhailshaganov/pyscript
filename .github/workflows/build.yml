@@ -27,6 +27,7 @@ jobs:
         with:
           python-version: 3.8
           cache: 'poetry'
+          cache-dependency-path: pyproject.toml
       #----------------------------------------------
       #       load cached venv if cache exists
       #----------------------------------------------
@@ -80,6 +81,7 @@ jobs:
         with:
           python-version: 3.8
           cache: 'poetry'
+          cache-dependency-path: pyproject.toml
 
       #----------------------------------------------
       #       load cached venv if cache exists
@@ -132,6 +134,7 @@ jobs:
         with:
           python-version: 3.8
           cache: 'poetry'
+          cache-dependency-path: pyproject.toml
 
       #----------------------------------------------
       #       Publish Library
